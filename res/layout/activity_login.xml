@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/showmap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="地图显示" />
+     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="（使用NETWORK在地图上直接显示自己的位置）" />
+
+    <Button
+        android:id="@+id/showshake"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="文字显示" />
+     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+          android:gravity="center_horizontal"
+        android:text="（使用GPS通过摇一摇功能文字显示自己的位置）" />
+
+    <Button
+        android:id="@+id/showxml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="XML显示" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+          android:gravity="center_horizontal"
+        android:text="（使用HttpClient向百度发送请求获取XML数据）" />
+
+    <Button
+        android:id="@+id/gps_test"
+        android:layout_width="match_parent"	
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+</LinearLayout>
